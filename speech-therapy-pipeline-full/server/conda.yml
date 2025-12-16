@@ -1,0 +1,16 @@
+name: yolo-stutter-web
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - librosa
+  - soundfile
+  - ffmpeg
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - python-multipart
+      - google-generativeai
+      - pydantic
